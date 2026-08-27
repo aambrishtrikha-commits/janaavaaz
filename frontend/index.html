@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JanAvaaz — Boliye. File banegi.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="stamp-banner" id="banner"></div>
+  <header class="top">
+    <div class="mark">JA</div>
+    <div>
+      <p class="kicker">Digital Public Good · GCP sandbox</p>
+      <h1>JanAvaaz</h1>
+      <p class="tag">बोलिए. Gemini फाइल बनाएगा. Secretary दस्तखत करेगा.</p>
+    </div>
+    <nav>
+      <button data-view="citizen" class="on">Citizen</button>
+      <button data-view="officer">Officer board</button>
+      <button data-view="packs">Packs</button>
+    </nav>
+  </header>
+  <main id="view-citizen" class="view">
+    <section class="hear">
+      <label>Your words</label>
+      <textarea id="raw" rows="4" placeholder="तीन महीने से नल में पानी नहीं है, नंदुरबार…"></textarea>
+      <div class="row">
+        <select id="lang">
+          <option value="hi">हिन्दी</option>
+          <option value="en">English</option>
+          <option value="as">অসমীয়া</option>
+          <option value="mr">मराठी</option>
+          <option value="ta">தமிழ்</option>
+        </select>
+        <select id="lgd"></select>
+        <button id="fileBtn" class="primary">File this voice</button>
+      </div>
+    </section>
+    <section id="filepad" class="filepad hidden">
+      <div class="pad-head"><span id="pnr"></span><span id="status"></span></div>
+      <div class="split">
+        <article>
+          <h2>Citizen</h2>
+          <p id="rawOut"></p>
+          <div id="echo"></div>
+        </article>
+        <article class="ruled">
+          <h2>Gemini Brief</h2>
+          <p class="model" id="glassLine"></p>
+          <h3 id="title"></h3>
+          <p id="brief"></p>
+          <h3>Build</h3>
+          <p id="build"></p>
+          <h3 class="red">Dissent</h3>
+          <p id="dissent"></p>
+          <ul id="cites"></ul>
+          <p class="score" id="score"></p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <main id="view-officer" class="view hidden">
+    <p class="hint">12-minute board</p>
+    <div id="board"></div>
+  </main>
+  <main id="view-packs" class="view hidden">
+    <div id="packHealth"></div>
+    <div id="hot"></div>
+  </main>
+  <footer>SAMPLE file-pad. Not an official government document.</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>
