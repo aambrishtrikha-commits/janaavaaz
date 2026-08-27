@@ -1,0 +1,69 @@
+:root {
+  --ink: #1c1915;
+  --paper: #f4efe4;
+  --ruled: #ebe3d1;
+  --red: #8c2f2f;
+  --seal: #2c4a3e;
+  --line: #cfc4ae;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+.stamp-banner {
+  background: #2c4a3e;
+  color: #f4efe4;
+  font-size: 13px;
+  padding: 8px 20px;
+}
+.top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 20px 24px 8px;
+  border-bottom: 1px solid var(--line);
+}
+.mark {
+  width: 48px; height: 48px;
+  border: 2px solid var(--seal);
+  display: grid; place-items: center;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+}
+h1 { margin: 0; font-family: "IBM Plex Serif", serif; font-size: 28px; }
+.kicker { margin: 0; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--seal); }
+.tag { margin: 4px 0 0; }
+nav { margin-left: auto; display: flex; gap: 8px; }
+nav button, .primary, select {
+  font: inherit; border: 1px solid var(--ink); background: transparent; padding: 8px 12px; cursor: pointer;
+}
+nav button.on, .primary { background: var(--ink); color: var(--paper); }
+.view { padding: 24px; max-width: 1100px; }
+.hidden { display: none; }
+textarea {
+  width: 100%; font: inherit; padding: 12px; background: #fffdf8;
+  border: 1px solid var(--line); margin: 8px 0;
+}
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+.filepad { margin-top: 24px; border: 1px solid var(--ink); background: #fffdf8; }
+.pad-head { display: flex; justify-content: space-between; padding: 10px 14px; border-bottom: 1px dashed var(--line); font-variant: all-small-caps; }
+.split { display: grid; grid-template-columns: 1fr 1fr; }
+.split article { padding: 16px; }
+.ruled { background: repeating-linear-gradient(var(--ruled) 0 1px, transparent 1px 28px); }
+h2 { font-family: "IBM Plex Serif", serif; font-size: 16px; margin: 0 0 8px; }
+h3 { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; margin: 16px 0 6px; }
+.red { color: var(--red); }
+.model { font-size: 12px; color: #5c5648; }
+.score { font-weight: 600; }
+.card {
+  border: 1px solid var(--line); padding: 12px; margin: 10px 0; background: #fffdf8;
+}
+.card button { margin-right: 6px; margin-top: 8px; }
+footer { padding: 20px 24px 40px; font-size: 12px; color: #5c5648; }
+@media (max-width: 800px) {
+  .split { grid-template-columns: 1fr; }
+  .top { flex-wrap: wrap; }
+}
