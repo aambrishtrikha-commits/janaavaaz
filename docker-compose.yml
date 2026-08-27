@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      USE_FIXTURES: ${USE_FIXTURES:-true}
+      APP_MODE: demo
+    volumes:
+      - ./data:/app/data
+      - ./context:/app/context
+      - ./frontend:/app/frontend
