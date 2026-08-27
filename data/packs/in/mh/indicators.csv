@@ -1,0 +1,8 @@
+lgd_code,sector,indicator_code,indicator_name,value_num,unit,direction,vintage,source_url,license
+472,water,JJM_FHTC_PCT,Rural HH tap connection coverage (public extract),54.0,percent,higher_better,2022-07,https://visualize.data.gov.in/?inst=a59eaa2e-98fa-467d-a133-6b72af0ffb17,GODL-India
+472,roads,SDG9_INFRA_PROXY,Infrastructure / all-weather road stress proxy (pack note),61.0,index,higher_better,2023-24,https://www.niti.gov.in/reports-sdg,NITI SDG India Index 2023-24
+496,water,JJM_FHTC_PCT,Rural HH tap connection coverage (public extract),48.0,percent,higher_better,2022-07,https://visualize.data.gov.in/?inst=a59eaa2e-98fa-467d-a133-6b72af0ffb17,GODL-India
+496,roads,SDG9_INFRA_PROXY,Infrastructure stress proxy,58.0,index,higher_better,2023-24,https://www.niti.gov.in/reports-sdg,NITI SDG India Index 2023-24
+497,water,JJM_FHTC_PCT,Rural HH tap connection coverage (public extract),62.0,percent,higher_better,2022-07,https://visualize.data.gov.in/?inst=a59eaa2e-98fa-467d-a133-6b72af0ffb17,GODL-India
+500,water,JJM_FHTC_PCT,Rural HH tap connection coverage (public extract),78.0,percent,higher_better,2022-07,https://visualize.data.gov.in/?inst=a59eaa2e-98fa-467d-a133-6b72af0ffb17,GODL-India
+519,water,JJM_FHTC_PCT,Urban/suburban tap access proxy (pack note),91.0,percent,higher_better,2022-07,https://visualize.data.gov.in/?inst=a59eaa2e-98fa-467d-a133-6b72af0ffb17,GODL-India

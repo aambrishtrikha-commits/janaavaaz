@@ -1,0 +1,7 @@
+pack_id: in-as-2026.1
+country: IN
+state_iso2: AS
+state_name: Assam
+status: packed
+languages_default: [as, hi, en]
+sectors: [water, roads]

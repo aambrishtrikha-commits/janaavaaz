@@ -1,0 +1,7 @@
+pack_id: in-xx-pending
+country: IN
+state_iso2: XX
+state_name: Awaiting CSV
+status: awaiting
+languages_default: [hi, en]
+sectors: [water]

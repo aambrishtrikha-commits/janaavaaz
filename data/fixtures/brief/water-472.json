@@ -1,0 +1,16 @@
+{
+  "title_en": "Restore functional standpost — Nandurbar rural pockets",
+  "brief_en": "Multiple citizen voices describe a dry handpump. Pack cell JJM_FHTC_PCT for this district is 54% (vintage 2022-07). District is on the Aspirational Districts list.",
+  "brief_local": "नंदुरबार में हैंडपंप मरम्मत और नल कनेक्शन की फाइल।",
+  "build_case": "Demand is clustered on drinking water; ADP flag raises underserved weight.",
+  "dissent": "The 54% figure is an older public extract. Merge duplicate standpost tickets first. Do not invent a rupee outlay.",
+  "insufficient_official_data": false,
+  "citations": [
+    {
+      "label": "JJM district tap visualisation (GODL-India)",
+      "url": "https://visualize.data.gov.in/?inst=a59eaa2e-98fa-467d-a133-6b72af0ffb17",
+      "vintage": "2022-07"
+    }
+  ],
+  "merge_hint": "Look for other water+repair tickets in LGD 472 this month."
+}

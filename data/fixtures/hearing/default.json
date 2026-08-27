@@ -1,0 +1,9 @@
+{
+  "sector": "water",
+  "intent": "repair",
+  "place_guess": "Nandurbar",
+  "need_one_line": "Handpump dry for three months; ward needs a working standpost.",
+  "need_one_line_local": "तीन महीने से हैंडपंप सूखा है।",
+  "source_lang": "hi",
+  "transcript_en": "The handpump has had no water for three months."
+}
